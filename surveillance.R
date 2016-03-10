@@ -8,7 +8,7 @@ library(dplyr)
 library(lubridate)
 
 # surveillance <- function (durationinmin){
-  durationinmin <- 180
+  durationinmin <- 120
   sec <- durationinmin*60
   time.past <- 0
   cycles <- 0
